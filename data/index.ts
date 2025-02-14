@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -107,31 +109,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Oreoluwa was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oreoluwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oreoluwa is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Oreoluwa was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oreoluwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oreoluwa is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Oreoluwa was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oreoluwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oreoluwa is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Oreoluwa was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oreoluwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oreoluwa is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Oreoluwa was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oreoluwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oreoluwa is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -180,7 +182,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev - Greenmouse Technologies",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -194,7 +196,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -213,5 +215,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+    url: "linkedin.com/in/oreoluwa-osoko-532a662ba",
   },
 ];
